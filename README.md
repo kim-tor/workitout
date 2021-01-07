@@ -26,6 +26,7 @@ A consumer will reach their fitness goals more quickly when they track their wor
 
 ## Usage
 ![Fitness Tracker](fitnesstracker.JPG)
+![Dashboard](dashboard.JPG)
 
 ## Resources
 * http://expressjs.com/en/guide/routing.html,
