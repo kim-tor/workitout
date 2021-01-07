@@ -25,7 +25,7 @@ A consumer will reach their fitness goals more quickly when they track their wor
 * Open browser to localhost:3005 and run application through the browser
 
 ## Usage
-* ![FItness_Tracker](fitnesstracker.jpg)
+*![Fitness-Tracker](fitnesstracker.jpg)
 
 ## Resources
 * http://expressjs.com/en/guide/routing.html,
