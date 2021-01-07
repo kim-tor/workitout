@@ -14,12 +14,10 @@ router.get("/api/workouts", (req,res) => {
 //update a current workout
 router.put("/api/workouts/:id", (req, res) => {
 
-    Workout.findOneAndUpdate(
-        { id: req.params.id },
-        {
-            $inc: { totalDuration: req.body.duration },
-            $push: { exercise: req.body }
-        },
+    Workout.findByIdAndUpdate(
+        req.params.id,        
+           { $push: { exercise: req.body }},
+           
         { new: true })
         .then(dbWorkout => {
             res.json(dbWorkout)
