@@ -28,6 +28,8 @@ A consumer will reach their fitness goals more quickly when they track their wor
 ![Fitness Tracker](fitnesstracker.JPG)
 ![Dashboard](dashboard.JPG)
 
+* Running the app locally I am able to obtain these results, however after pushing to Heroku the functionality of the app was not the same. 
+
 ## Resources
 * http://expressjs.com/en/guide/routing.html,
 * https://docs.mongodb.com/manual/reference/operator/update/inc/,
